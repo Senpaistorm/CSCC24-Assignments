@@ -53,3 +53,4 @@ module GameMasterDef where
             showParen (d > 10) (showString "GMAction "
                                 . shows lo . showChar ' ' . shows hi
                                 . showString " (function)")
+    
